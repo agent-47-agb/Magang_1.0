@@ -1,0 +1,76 @@
+{
+  "site": {
+    "name": "Magang 1.0",
+    "tagline": "Sistem Web Beranda · PHP & JavaScript",
+    "description": "Template web beranda modular berbasis PHP dan JavaScript untuk membangun landing page dengan cepat."
+  },
+  "menu": [
+    { "label": "Beranda", "href": "#beranda" },
+    { "label": "Fitur", "href": "#fitur" },
+    { "label": "Tentang", "href": "#tentang" },
+    { "label": "Galeri", "href": "#galeri" },
+    { "label": "Kontak", "href": "#kontak" }
+  ],
+  "hero": {
+    "title": "Bangun Web Beranda dengan Mudah",
+    "subtitle": "Sistem modular berbasis PHP & JavaScript: ubah konten lewat satu file JSON, tambah section lewat satu konfigurasi — tanpa menulis ulang seluruh halaman.",
+    "cta_text": "Mulai Sekarang",
+    "cta_link": "#fitur",
+    "secondary_cta_text": "Lihat Fitur",
+    "secondary_cta_link": "#fitur"
+  },
+  "features": {
+    "title": "Fitur Unggulan",
+    "subtitle": "Semua yang kamu butuhkan untuk membangun beranda profesional.",
+    "items": [
+      {
+        "icon": "🧩",
+        "title": "Modular & Mudah Dikustomisasi",
+        "description": "Setiap bagian halaman berupa file section terpisah. Aktifkan, nonaktifkan, atau ubah urutannya lewat includes/config.php."
+      },
+      {
+        "icon": "📱",
+        "title": "Responsif di Semua Layar",
+        "description": "Tata letak otomatis menyesuaikan mulai dari HP, tablet, hingga desktop — tanpa CSS tambahan."
+      },
+      {
+        "icon": "⚡",
+        "title": "Interaktif dengan JavaScript",
+        "description": "Navigasi mobile, smooth scroll, galeri carousel, animasi saat scroll, dan form validasi — semua vanilla JS tanpa dependensi."
+      },
+      {
+        "icon": "📝",
+        "title": "Konten Terpisah dari Kode",
+        "description": "Seluruh teks, menu, dan data galeri disimpan di data/content.json. Ubah konten tanpa menyentuh PHP."
+      }
+    ]
+  },
+  "about": {
+    "title": "Tentang Sistem Ini",
+    "text": "Magang 1.0 adalah kerangka web beranda sederhana namun lengkap. Halaman dirakit dari section-seksi kecil yang di-render oleh PHP, sementara seluruh interaksi ditangani JavaScript murni. Struktur ini memudahkan pengembangan tim: satu orang ubah konten, satu orang ubah tampilan, satu orang tambahkan section baru.",
+    "stats": [
+      { "value": "5", "label": "Section Siap Pakai" },
+      { "value": "0", "label": "Library Eksternal" },
+      { "value": "100%", "label": "Responsif" }
+    ]
+  },
+  "gallery": {
+    "title": "Galeri",
+    "subtitle": "Contoh konten dinamis — tambahkan gambar asli dengan mengisi field \"image\" di data/content.json.",
+    "items": [
+      { "image": "", "caption": "Lay-out Beranda" },
+      { "image": "", "caption": "Kartu Fitur" },
+      { "image": "", "caption": "Navigasi Responsif" },
+      { "image": "", "caption": "Galeri Carousel" },
+      { "image": "", "caption": "Form Kontak" },
+      { "image": "", "caption": "Footer & CTA" }
+    ]
+  },
+  "contact": {
+    "title": "Kirim Pesan",
+    "subtitle": "Punya pertanyaan, masukan, atau ide kerja sama? Isi form di bawah — pesan akan disimpan oleh server."
+  },
+  "footer": {
+    "copyright": "© 2026 Magang 1.0 — Dibangun dengan PHP & JavaScript."
+  }
+}

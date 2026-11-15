@@ -1,0 +1,11 @@
+# Sistem operasi
+.DS_Store
+Thumbs.db
+
+# Data yang dibuat saat runtime (hasil form)
+data/messages.json
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
